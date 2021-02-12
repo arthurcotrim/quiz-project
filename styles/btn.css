@@ -1,0 +1,181 @@
+/* =========== BUTTON START ===========  */
+.btn-Start {
+    padding: 0.375rem 7rem;
+    margin-top: 10rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font: normal 1.7rem san-serif;
+    color: #fff;
+    text-align: center;
+
+    letter-spacing: 0.25rem;
+    line-height: 1.5;
+
+    display: inline-block;
+    position: relative;
+
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.btn-Start:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 10px #fff, 0 0 30px #fff, 0 0 40px #fff;
+    transition-delay: 1s;
+}
+
+.btn-Start span {
+    position: absolute;
+    display: block;
+}
+
+.btn-Start span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+}
+
+.btn-Start:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.btn-Start span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+}
+
+.btn-Start:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: .5s;
+}
+
+.btn-Start span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+}
+
+.btn-Start:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: .25s;
+}
+
+.btn-Start span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+}
+
+.btn-Start:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .75s;
+}
+
+/* =========== BUTTON LET'S GO ===========  */
+.btn-letsGo-main{
+    display: none;
+}
+
+.btn-LetsGo {
+    padding: 0.375rem 7rem;
+    margin: 0 0 3rem 0;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font: normal 1.7rem san-serif;
+    color: #fff;
+    text-align: center;
+
+    letter-spacing: 0.25rem;
+    line-height: 1.5;
+
+    display: inline-block;
+    position: relative;
+
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.btn-LetsGo:hover {
+    background: #2e96f3;
+    color: #fff;
+    box-shadow: 0 0 10px #2e96f3, 0 0 30px #2e96f3, 0 0 40px #2e96f3;
+    transition-delay: 1s;
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2e96f3);
+}
+
+a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2e96f3);
+}
+
+a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: .5s;
+}
+
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2e96f3);
+}
+
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: .25s;
+}
+
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2e96f3);
+}
+
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .75s;
+}
