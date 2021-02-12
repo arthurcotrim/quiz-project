@@ -1,0 +1,59 @@
+#logo {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+/* D */
+#logo path:nth-child(2) {
+    stroke-dasharray: 495;
+    stroke-dashoffset: 495;
+    animation: line-animation 2s ease forwards;
+}
+
+/* E */
+#logo path:nth-child(3) {
+    stroke-dasharray: 495;
+    stroke-dashoffset: 495;
+    animation: line-animation 2s ease forwards 0.3s;
+}
+
+/* V */
+#logo path:nth-child(4) {
+    stroke-dasharray: 495;
+    stroke-dashoffset: 495;
+    animation: line-animation 2s ease forwards 0.6s;
+}
+
+/* Q */
+#logo path:nth-child(5) {
+    stroke-dasharray: 495;
+    stroke-dashoffset: 495;
+    animation: line-animation 2s ease forwards 0.9s;
+}
+
+/* U */
+#logo path:nth-child(6) {
+    stroke-dasharray: 495;
+    stroke-dashoffset: 495;
+    animation: line-animation 2s ease forwards 1.2s;
+}
+
+/* I */
+#logo path:nth-child(7) {
+    stroke-dasharray: 495;
+    stroke-dashoffset: 495;
+    animation: line-animation 2s ease forwards 1.5s;
+}
+
+/* Z */
+#logo path:nth-child(8) {
+    stroke-dasharray: 495;
+    stroke-dashoffset: 495;
+    animation: line-animation 2s ease forwards 1.8s;
+}
+
+@keyframes line-animation {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
