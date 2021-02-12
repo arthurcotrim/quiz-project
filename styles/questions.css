@@ -1,0 +1,49 @@
+.container {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.alert-message {
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.alert-message h2 {
+    font: normal 1.5rem sans-serif;
+    line-height: 1.5;
+    margin: 3rem auto;
+}
+
+.alert-message span {
+    color: #2e96f3;
+}
+
+.instuctions {
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.instuctions li {
+    list-style: none;
+    padding: 1rem 0;
+
+    font: normal 1.3rem sans-serif;
+}
+
+.confirm-agreed {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.confirm-agreed label {
+    border: none;
+    font: normal 1.3rem sans-serif;
+}
+
+.instuctions .active-btn {
+    display: block;
+}
