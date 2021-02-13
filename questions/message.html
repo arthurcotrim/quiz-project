@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/questions.css">
     <link rel="stylesheet" href="../styles/btn.css">
+    <link rel="stylesheet" href="../styles/list.css">
 
     <title>Verification | Dev Quiz</title>
 </head>
@@ -19,40 +20,39 @@
             <h2>Aqui vão algumas intruções e regras sobre nosso <span>Dev Quiz</span></h2>
 
             <div class="instuctions">
-                <ol>
-                    <li>* Cada pergunta contém <em>3</em> alternativas</li>
-                    <li>* Apenas uma alternativa correta</li>
-                    <li>* Cada resposta certa vale <em>5</em> pontos</li>
-                    <li>* Cada resposta errada vale <em>-2</em> pontos</li>
-                    <li>* Tenha certeza ao confirmar, você <b>não</b> retornará a questão</li>
-                    <li>* Não trapaceie. It's not fun</li>
-                </ol>
+                <ul>
+                    <li><span>1</span> Cada pergunta contém <em>3</em> alternativas</li>
+                    <li><span>2</span> Apenas uma alternativa correta</li>
+                    <li><span>3</span> Cada resposta certa vale <em>5</em> pontos</li>
+                    <li><span>4</span> Cada resposta errada vale <em>-2</em> pontos</li>
+                    <li><span>5</span> Tenha certeza ao confirmar, você <b>não</b> retornará a questão</li>
+                    <li><span>6</span> Não trapaceie. It's not fun</li>
+                </ul>
+            </div>
 
-                <div class="confirm-agreed">
-                    <a href="#btn-sec"><input type="checkbox" id="agreed" onclick="btn()"></a> 
-                    <label for="agreed" required>Li e estou de acordo com <span>todas as regras</span></label>
+            <div class="confirm-agreed">
+                <a href="#btn-sec"><input type="checkbox" id="agreed" onclick="btn()"></a>
+                <label for="agreed" required>Li e estou de acordo com <span>todas as regras</span></label>
+            </div>
+
+            <div class="answer-example">
+                <div class="correct-answer">
+                    <h2>Resposta correta:</h2>
                 </div>
 
-                <div class="answer-example">
-                    <div class="correct-answer">
-                        <h2>Resposta correta:</h2>
-                    </div>
-
-                    <div class="incorrect-answer">
-                        <h2>Resposta incorreta:</h2>
-                    </div>
+                <div class="incorrect-answer">
+                    <h2>Resposta incorreta:</h2>
                 </div>
+            </div>
 
-                <div class="btn-letsGo-main" id="btn-sec">
-                    <a href="./qt1.html" class="btn-LetsGo" target="_self">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Let's go
-                    </a>
-                </div>
-
+            <div class="btn-letsGo-main" id="btn-sec">
+                <a href="./qt1.html" class="btn-LetsGo" target="_self">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Let's go
+                </a>
             </div>
         </div>
     </div>
